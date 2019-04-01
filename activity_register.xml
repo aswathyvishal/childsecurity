@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/sta">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="Registration"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:padding="16dp"
+        android:drawableRight="@drawable/ic_person_outline_red_400_24dp"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:hint="Enter Name"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"/>
+
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_marginTop="200dp"
+        android:padding="16dp"
+        android:drawableRight="@drawable/ic_person_outline_red_400_24dp"
+        android:maxLines="1"
+        android:textColorHint="#fff"
+        android:hint="Enter Email Address"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:padding="16dp"
+        android:maxLines="1"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:hint="Enter Contact Number"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:padding="16dp"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:hint="Car Model"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="252dp"
+        android:ems="10" />
+
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:padding="16dp"
+        android:maxLines="1"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:hint="Engine Number"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="171dp"
+        android:ems="10"/>
+
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginBottom="171dp"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:drawableRight="@drawable/ic_lock_red_24dp"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:padding="16dp"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:hint="Confirm Password"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="40dp"
+        android:drawableRight="@drawable/ic_lock_red_24dp"
+        android:layout_marginBottom="171dp"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="640dp"
+        android:text="SUBMIT"
+        android:background="@drawable/bkgd_red_2"
+        android:padding="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#f16371"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
+</ScrollView>
